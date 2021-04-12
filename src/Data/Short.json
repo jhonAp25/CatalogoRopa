@@ -1,0 +1,185 @@
+{   
+    "short": [{
+                "modeloRayas":
+                [{  
+                    "id": 1,
+                    "titulo" : "Short Deportivo",
+                    "img": "short1",
+                    "descripcion": "Con elásticos en los laterales y entalle  fit para delinear la figura masculina sin descuidar la comodidad",
+                    "material": "delectus aut autem",
+                    "precio": 20.0,
+                    "color": [{
+                        "color" : "negro",
+                        "codigo": "#ffffff"
+                    }],
+                    "talla"  : [ "S","M","L","XL"]
+                    }],
+                    
+                "modeloClasico" : [{ "id": 1,
+                    "titulo" : "Short Deportivo",
+                    "img": "short1",
+                    "descripcion": "Con elásticos en los laterales y entalle  fit para delinear la figura masculina sin descuidar la comodidad",
+                    "material": "delectus aut autem",
+                    "precio": 20.0,
+                    "color": [{
+                        "color" : "negro",
+                        "codigo": "#ffffff"
+                    }],
+                    "talla"  : [ "S","M","L","XL"]
+                    }],
+
+                "modeloCorto":
+                    [{  
+                        "id": 1,
+                        "titulo" : "Short Deportivo",
+                        "img": "short1",
+                        "descripcion": "Con elásticos en los laterales y entalle  fit para delinear la figura masculina sin descuidar la comodidad",
+                        "material": "delectus aut autem",
+                        "precio": 20.0,
+                        "color": [{
+                            "color" : "negro",
+                            "codigo": "#ffffff"
+                        }],
+                        "talla"  : [ "S","M","L","XL"]
+                        }],
+                        
+                "modeloElegante" : [{ "id": 1,
+                        "titulo" : "Short Deportivo",
+                        "img": "short1",
+                        "descripcion": "Con elásticos en los laterales y entalle  fit para delinear la figura masculina sin descuidar la comodidad",
+                        "material": "delectus aut autem",
+                        "precio": 20.0,
+                        "color": [{
+                            "color" : "negro",
+                            "codigo": "#ffffff"
+                        }],
+                        "talla"  : [ "S","M","L","XL"]
+                        }]
+    
+
+
+            }],
+
+    "Buzo": [{
+                "modeloClasico":
+                [{  
+                    "id": 1,
+                    "titulo" : "Buzo Deportivo",
+                    "img": "short1",
+                    "descripcion": "Con elásticos en los laterales y entalle  fit para delinear la figura masculina sin descuidar la comodidad",
+                    "material": "delectus aut autem",
+                    "precio": 20.0,
+                    "color": [{
+                        "color" : "negro",
+                        "codigo": "#ffffff"
+                    }],
+                    "talla"  : [ "S","M","L","XL"]
+                    }],
+                    
+                "modeloRayas" : [{ "id": 1,
+                    "titulo" : "Buzo Deportivo",
+                    "img": "short1",
+                    "descripcion": "Con elásticos en los laterales y entalle  fit para delinear la figura masculina sin descuidar la comodidad",
+                    "material": "delectus aut autem",
+                    "precio": 20.0,
+                    "color": [{
+                        "color" : "negro",
+                        "codigo": "#ffffff"
+                    }],
+                    "talla"  : [ "S","M","L","XL"]
+                    }],
+
+                "modeloJogger":
+                    [{  
+                        "id": 1,
+                        "titulo" : "Buzo Deportivo",
+                        "img": "short1",
+                        "descripcion": "Con elásticos en los laterales y entalle  fit para delinear la figura masculina sin descuidar la comodidad",
+                        "material": "delectus aut autem",
+                        "precio": 20.0,
+                        "color": [{
+                            "color" : "negro",
+                            "codigo": "#ffffff"
+                        }],
+                        "talla"  : [ "S","M","L","XL"]
+                        }],
+                        
+                "modeloDeportivo" : [{ "id": 1,
+                        "titulo" : "Buzo Deportivo",
+                        "img": "short1",
+                        "descripcion": "Con elásticos en los laterales y entalle  fit para delinear la figura masculina sin descuidar la comodidad",
+                        "material": "delectus aut autem",
+                        "precio": 20.0,
+                        "color": [{
+                            "color" : "negro",
+                            "codigo": "#ffffff"
+                        }],
+                        "talla"  : [ "S","M","L","XL"]
+                        }]
+
+
+
+    }],
+    "Casaca": [{
+        "modeloClasico":
+        [{  
+            "id": 1,
+            "titulo" : "Buzo Deportivo",
+            "img": "short1",
+            "descripcion": "Con elásticos en los laterales y entalle  fit para delinear la figura masculina sin descuidar la comodidad",
+            "material": "delectus aut autem",
+            "precio": 20.0,
+            "color": [{
+                "color" : "negro",
+                "codigo": "#ffffff"
+            }],
+            "talla"  : [ "S","M","L","XL"]
+            }],
+            
+        "modeloRayas" : [{ "id": 1,
+            "titulo" : "Buzo Deportivo",
+            "img": "short1",
+            "descripcion": "Con elásticos en los laterales y entalle  fit para delinear la figura masculina sin descuidar la comodidad",
+            "material": "delectus aut autem",
+            "precio": 20.0,
+            "color": [{
+                "color" : "negro",
+                "codigo": "#ffffff"
+            }],
+            "talla"  : [ "S","M","L","XL"]
+            }],
+
+        "modeloJogger":
+            [{  
+                "id": 1,
+                "titulo" : "Buzo Deportivo",
+                "img": "short1",
+                "descripcion": "Con elásticos en los laterales y entalle  fit para delinear la figura masculina sin descuidar la comodidad",
+                "material": "delectus aut autem",
+                "precio": 20.0,
+                "color": [{
+                    "color" : "negro",
+                    "codigo": "#ffffff"
+                }],
+                "talla"  : [ "S","M","L","XL"]
+                }],
+                
+        "modeloDeportivo" : [{ "id": 1,
+                "titulo" : "Buzo Deportivo",
+                "img": "short1",
+                "descripcion": "Con elásticos en los laterales y entalle  fit para delinear la figura masculina sin descuidar la comodidad",
+                "material": "delectus aut autem",
+                "precio": 20.0,
+                "color": [{
+                    "color" : "negro",
+                    "codigo": "#ffffff"
+                }],
+                "talla"  : [ "S","M","L","XL"]
+                }]
+
+
+
+}]
+
+
+}

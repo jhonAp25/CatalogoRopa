@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 1600px;
+
+}
+.navBar{
+  background-color: rgb(12, 11, 11)  !important;
+}
+.nav-ul{
+  display: flex;
+  list-style: none;
+  width: 100%;
+  align-items: center;
+  padding: 0;
+}
+.nav-ul li{
+  text-align: center;
+  padding: 0.2%;
+  cursor: pointer;
+}
+.nav-ul li a{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-ul li a:hover{
+  color: #81d1c8;
+}
+.active{
+  color: #34B9A9 !important;
+  font-weight: bolder;
+}
+
+/************************BANNER******************************/
+
+.contentBanner{
+  display: flex;
+}
+.banner1{
+  width: 50%;
+}
+.titulo{
+  margin: 5% 0 0 9%;
+  font-size: 2rem;
+}
+.img{
+  display: flex;
+  width: 100%;
+  transform: rotate(340deg);
+  justify-content: center;
+}
+.img img{
+  width: 335px;
+}
+.mancha{
+  width: 600px;
+    height: 250px;
+    background: #34B9A9;
+    position: absolute;
+    z-index: -1;
+    bottom: 115px;
+    border-radius: 0 150px 150px 0px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.mancha h2{
+  color: rgb(255, 255, 255);
+  margin: 0% 0 3% 9%;
+
+}
+.mancha h4{
+  color: rgb(0, 0, 0);
+  margin: 0% 0px 2% 8%;
+}
+.mancha h4, h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.mancha2{
+  top: 30%;
+  width: 600px;
+  height: 250px;
+  background: #FC7D36;
+  position: absolute;
+  z-index: -1;
+  /* bottom: 115px; */
+  border-radius: 150px 0px 0px 150px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+  right: 0;
+}
+.img2{
+  display: flex;
+  width: 100%;
+  transform:rotate(16deg);
+  margin-left: 63%;
+}
+.img2 img{
+  width: 335px;
+}
+.img img:hover{
+  width: 350px;
+  cursor: pointer;
+  transition: all 400ms;
+}
+.img2 img:hover{
+  width: 350px;
+  cursor: pointer;
+  transition: all 400ms;
+}
+
+
+
+.mancha2 h2{
+  color: rgb(255, 255, 255);
+  margin: 0% 8% 3% 9%;
+
+}
+.mancha2 h4{
+  color: rgb(0, 0, 0);
+  margin: 0% 0px 2% 8%;
+}
+.mancha2 h4, h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 6%;
+}
+.ButtonVer{
+  position: absolute;
+  bottom: 14%;
+  background-color: black;
+  color: #fbfbfb;
+  padding: 1% 4% 1% 4%;
+ cursor: pointer;
+  right: 43%;
+}
+.ButtonVer:hover{
+  background-color: rgb(61, 61, 61);
+}
+
+
+/******************* CATEGORIA ******************************/
+.tabsCustom{
+  
+}
+.contentCard{
+ 
+    width: 100%;
+    padding: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+  border-radius: 15px;
+  background-color: #E5E5E5;
+  width: 17%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+.cardSelect{
+  border-radius: 15px;
+  background-color: #E5E5E5;
+  width: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: black 0px 9px 16px 2px;
+  transform: scale(1.1);
+}
+/*referncia img */
+.buzoImg{
+  width: 236px;
+}
+.imgCarrusel{
+padding: 15%;
+width: 70%;
+height: 75%;
+}
+.icons{
+  position: absolute;
+}
+.left{
+  right: 115%;
+  top: 160px;
+}
+.right{
+  top: 160px;
+  left: 115%;
+}
+
+/**************PRODUCTOO ********************/
+.content{
+  overflow: hidden;
+  max-width: 100%;
+  padding: 7%;
+  padding-top: 5%;
+
+
+}
+.contentReference{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.BoxReference{
+  width: 100%;
+  height: 150px;
+  background-color: #C4C4C4;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxProducto{
+  background-color: #C4C4C4;
+  width: 100%;
+  height: 650px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.imgPrincipal{
+  max-width: 19rem;
+  width: 100%;
+}
+.imgReference{
+  max-width: 5rem;
+  width: 100%;
+}
+.contentLike{
+ position: absolute !important;
+  top: 7rem;
+  left: 46rem;
+}
+.iconLike{
+ 
+  position: absolute;
+  color: #ED4D62;
+  font-size: 2rem;
+  
+ 
+}
+.boxDescripcion{
+  background-color: #C4C4C4;
+  width: 100%;
+  height: 650px;
+  border-radius: 15px;
+}
+
+.tittuloDes{
+  text-align: center;
+  padding: 5%;
+  font-size: 1.4rem;
+}
+.bodyDes{
+  font-size: 1.2rem;
+  padding: 4%;
+}
+.bodyDes p{
+  padding: 1.1%;
+}
+.precioDes{
+  text-align: end;
+  padding-right: 6%;
+}
+.footerDes{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 7%;
+}
+.ButtonDes{
+  bottom: 14%;
+  background-color: black;
+  color: #fbfbfb;
+  padding: 2% 6% 2% 6%;
+ cursor: pointer;
+  right: 43%;
+}
+.ButtonDes:hover{
+  background-color:rgb(54, 54, 54); ;
+}
+
+

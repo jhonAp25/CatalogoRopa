@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+#carousel {
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-family: 'Lobster';
+    transition: all 800ms;
+}
+
+.arrow {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    color: #228291;
+    line-height: 30px;
+    margin-top: 185px;
+    z-index: 1000;
+}
+
+.arrow-right {
+    right: 40.3%;
+}
+.arrow-left {
+    left: 40%;
+}
+
+.item {
+    border-radius:  15px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-size: 40px;
+    position: absolute;
+    transition: height 800ms, width 800ms, left 800ms, margin-top 800ms, line-height 800ms, background-color 800ms;
+}
+
+$level2-height: 350px;
+$level2-width: 18.125%;
+$level1-height: 380px;
+$level1-width: 310px;
+$level0-height: 400px;
+$level0-width: 330px;
+
+$level-2-left: 80.813%;
+$level-1-left: 60.813%;
+$level0-left: 39.563%;
+$level1-left: 19.563%;
+$level2-left: 0.813%;
+
+
+.level-2 {
+    height: $level2-height;
+    width: $level2-width;
+    line-height: $level2-height;
+    background-color: #E5E5E5;
+    left: $level-2-left;
+    margin-top: 25px;
+}
+
+.level-1 {
+    height: $level1-height;
+    width: $level1-width;
+    line-height: $level1-height;
+    background-color: #E5E5E5;
+    left: $level-1-left;
+    margin-top: 10px;
+}
+
+.level0 {
+    height: $level0-height;
+    width: $level0-width;
+    line-height: $level0-height;
+    background-color: #E5E5E5;
+    left: $level0-left;
+    box-shadow: black 0px 9px 16px 2px;
+}
+
+.level1 {
+    height: $level1-height;
+    width: $level1-width;
+    line-height: $level1-height;
+    background-color: #E5E5E5;
+    margin-top: 10px;
+    left: $level1-left;
+}
+
+.level2 {
+    height: $level2-height;
+    width: $level2-width;
+    line-height: $level2-height;
+    background-color: #E5E5E5;
+    margin-top: 25px;
+    left: $level2-left;
+}
+
+.left-enter {
+    opacity: 0;
+    left: $level2-left - $level2-width;
+    height: $level2-height - 30;
+    width: $level2-width - 20;
+    line-height: $level2-height - 30;
+    margin-top: 40px;
+}
+
+.left-enter.left-enter-active {
+    opacity: 1;
+    left: $level2-left;
+    height: $level2-height;
+    width: $level2-width;
+    line-height: $level2-height;
+    margin-top: 25px;
+    transition: left 800ms, opacity 800ms, height 800ms, width 800ms, margin-top 800ms, line-height 800ms;
+}
+
+.left-leave {
+    opacity: 1;
+    left: $level-2-left;
+    height: $level2-height;
+    width: $level2-width;
+    line-height: $level2-height;
+    margin-top: 25px;
+}
+
+.left-leave.left-leave-active {
+    left: $level-2-left + $level2-width + 20;
+    opacity: 0;
+    height: $level2-height - 30;
+    line-height: 120px;
+    margin-top: 40px;
+    width: $level2-width - 20;
+    transition: left 800ms, opacity 800ms, height 800ms, width 800ms, margin-top 800ms, line-height 800ms;
+}
+
+.right-enter {
+    opacity: 0;
+    left: $level-2-left + $level2-width;
+    height: $level2-height - 30;
+    width: $level2-width - 20;
+    line-height: $level2-height - 30;
+    margin-top: 40px;
+}
+
+.right-enter.right-enter-active {
+    left: $level-2-left;
+    opacity: 1;
+    height: $level2-height;
+    margin-top: 25px;
+    line-height: $level2-height;
+    width: $level2-width;
+    transition: left 800ms, opacity 800ms, height 800ms, width 800ms, margin-top 800ms, line-height 800ms;
+}
+
+.right-leave {
+    left: $level2-left;
+    height: $level2-height;
+    opacity: 1;
+    margin-top: 25px;
+    line-height: $level2-height;
+    width: $level2-width;
+}
+
+.right-leave.right-leave-active {
+    left: $level2-left - $level2-width;
+    opacity: 0;
+    height: $level2-height - 30;
+    width: $level2-width - 20;
+    line-height: $level2-height - 30;
+    margin-top: 40px;
+    transition: left 800ms, opacity 800ms, height 800ms, width 800ms, margin-top 800ms, line-height 800ms;
+}
+
+.noselect {
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none;  
+            user-select: none;
+}
